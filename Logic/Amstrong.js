@@ -8,7 +8,7 @@ function amstrong(x){
 
     }
     if(y==x){
-        console.log(x,"is an Amstrong Number");
+        console.log(x,"is an Amstrong Number ");
     }
     else{
         console.log(x,"is not an Amstrong Number")
