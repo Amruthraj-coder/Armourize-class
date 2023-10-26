@@ -7,4 +7,3 @@ console.log(x)
 num(x+1);
 }
 num();
-console.log("hello");
