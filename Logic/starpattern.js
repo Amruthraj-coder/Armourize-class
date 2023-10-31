@@ -2,7 +2,7 @@ let n=5;
 let str="";
 
 for(let i=1;i<=n;i++){
-    for(let j=i;j<i+1;j++){
+    for(let j=i;j<=i;j++){
         str+="*";
     }
     console.log(str);
