@@ -1,14 +1,24 @@
 let n=5;
-let str="";
+let string="";
+for(let i=1;i<=5;i++){
+    for(let j=1;j<=i;j++){
+        string+="* ";
 
-for(let i=1;i<=n;i++){
-    for(let j=i;j<=i;j++){
-        str+="*";
     }
-    console.log(str);
-    for(let k=1;k<=n-i;k++){
-        str+=" ";
-    }
-    console.log(str);
-
+    console.log(string);
+    string="";
 }
+
+// let n=5;
+// let string="";
+// for(let i=0;i<n;i++){
+//     for(let j=n-i-1;j>0;j--){
+//         string+=" ";
+
+//     }
+//     for(let k=0;k<=i;k++){
+//         string+=" *";
+//     }
+//     console.log(string);
+//     string=""; 
+// }

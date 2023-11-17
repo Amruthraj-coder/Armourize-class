@@ -1,13 +1,16 @@
-function func(myfunc,x,y){
-    console.log("inside func")
-   
-    let result =myfunc(x,y)
-    return result;
+let add=function(x,y){
+    return x+y
 }
-function myfunc(x,y){
-    return x+y;
+let sub = function(x,y){
+    return x-y;
 }
 
-let res=func(myfunc,5,6);
+function exe(add,sub){
+    let x=5,y=2
+let r1=add(x,y);
+let r2=sub(x,y);
+console.log(r1,r2);
+return add;
+}
 
-console.log(res);
+let cat=exe();
